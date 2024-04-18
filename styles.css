@@ -87,12 +87,20 @@ body {
   text-shadow: 3px 3px #262626;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   body {
       zoom: 60%;
   }
   .centered {
     height: 440px;
+  }
+}
+@media screen and (max-height: 720px) {
+  body {
+      zoom: 80%;
+  }
+  .centered {
+    height: 380px;
   }
 }
 
